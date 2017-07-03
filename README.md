@@ -2,6 +2,7 @@ horenso-reporter-ciscospark
 =====================
 
 [![CircleCI](https://circleci.com/gh/sukiyaki/horenso-reporter-ciscospark/tree/master.svg?style=svg)](https://circleci.com/gh/sukiyaki/horenso-reporter-ciscospark/tree/master)
+[![Coverage Status](https://coveralls.io/repos/github/sukiyaki/horenso-reporter-ciscospark/badge.svg?branch=master)](https://coveralls.io/github/sukiyaki/horenso-reporter-ciscospark?branch=master)
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
 ![Screenshot](doc/image.png)

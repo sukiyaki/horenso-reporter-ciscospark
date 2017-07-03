@@ -14,7 +14,9 @@ deps:
 test: deps
 	go get github.com/stretchr/testify/assert
 	go get github.com/pierrre/gotestcover
+	go get github.com/mattn/goveralls
 	gotestcover -v -covermode=count -coverprofile=.profile.cov ./...
+	goveralls -coverprofile=.profile.cov -service=circle-ci -repotoken $${COVERALLS_TOKEN}
 
 deploy_from_circleci: deps
 	go get github.com/mitchellh/gox
